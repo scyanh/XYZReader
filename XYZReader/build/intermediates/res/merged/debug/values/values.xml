@@ -45,6 +45,10 @@
     <color name="cardview_light_background">#FFFAFAFA</color>
     <color name="cardview_shadow_end_color">#03000000</color>
     <color name="cardview_shadow_start_color">#37000000</color>
+    <!-- From: file:/Users/ashpro/Documents/dev/android/Nanodegree/XYZReader/XYZReader/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="color_article_byline">#8fff</color>
+    <color name="color_article_subtitle">#6000</color>
     <!-- From: file:/Users/ashpro/Documents/dev/android/Nanodegree/XYZReader/XYZReader/build/intermediates/exploded-aar/com.android.support/design/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <color name="design_fab_shadow_end_color">@android:color/transparent</color>

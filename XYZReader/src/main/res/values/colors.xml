@@ -23,4 +23,8 @@
     <color name="A400">#F50057</color>
 
     <color name="ltgray">#ffe0e0e0</color>
+
+    <color name="color_article_byline">#8fff</color>
+    <color name="color_article_subtitle">#6000</color>
+
 </resources>
