@@ -16,6 +16,9 @@
     <!-- From: file:/Users/ashpro/Documents/dev/android/Nanodegree/XYZReader/XYZReader/src/main/res/values/macro_layout.xml -->
     <eat-comment/>
     <bool name="detail_is_card">false</bool>
+    <!-- From: file:/Users/ashpro/Documents/dev/android/Nanodegree/XYZReader/XYZReader/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="A400">#F50057</color>
     <!-- From: file:/Users/ashpro/Documents/dev/android/Nanodegree/XYZReader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <color name="abc_input_method_navigation_guard">@android:color/black</color>
@@ -84,6 +87,8 @@
     <color name="material_grey_900">#ff212121</color>
     <!-- From: file:/Users/ashpro/Documents/dev/android/Nanodegree/XYZReader/XYZReader/src/main/res/values/colors.xml -->
     <eat-comment/>
+    <color name="orange_500">#ff5722</color>
+    <color name="orange_700">#e64a19</color>
     <color name="photo_placeholder">#ccc</color>
     <!-- From: file:/Users/ashpro/Documents/dev/android/Nanodegree/XYZReader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
@@ -105,11 +110,6 @@
     <color name="switch_thumb_disabled_material_light">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
-    <!-- From: file:/Users/ashpro/Documents/dev/android/Nanodegree/XYZReader/XYZReader/src/main/res/values/colors.xml -->
-    <eat-comment/>
-    <color name="theme_accent">#04561A</color>
-    <color name="theme_primary">#04561A</color>
-    <color name="theme_primary_dark">#04561A</color>
     <declare-styleable name="ActionBar"><attr name="navigationMode"><enum name="normal" value="0"/><enum name="listMode" value="1"/><enum name="tabMode" value="2"/></attr><attr name="displayOptions"><flag name="none" value="0"/><flag name="useLogo" value="0x1"/><flag name="showHome" value="0x2"/><flag name="homeAsUp" value="0x4"/><flag name="showTitle" value="0x8"/><flag name="showCustom" value="0x10"/><flag name="disableHome" value="0x20"/></attr><attr name="title"/><attr format="string" name="subtitle"/><attr format="reference" name="titleTextStyle"/><attr format="reference" name="subtitleTextStyle"/><attr format="reference" name="icon"/><attr format="reference" name="logo"/><attr format="reference" name="divider"/><attr format="reference" name="background"/><attr format="reference|color" name="backgroundStacked"/><attr format="reference|color" name="backgroundSplit"/><attr format="reference" name="customNavigationLayout"/><attr name="height"/><attr format="reference" name="homeLayout"/><attr format="reference" name="progressBarStyle"/><attr format="reference" name="indeterminateProgressStyle"/><attr format="dimension" name="progressBarPadding"/><attr name="homeAsUpIndicator"/><attr format="dimension" name="itemPadding"/><attr format="boolean" name="hideOnContentScroll"/><attr format="dimension" name="contentInsetStart"/><attr format="dimension" name="contentInsetEnd"/><attr format="dimension" name="contentInsetLeft"/><attr format="dimension" name="contentInsetRight"/><attr format="dimension" name="elevation"/><attr format="reference" name="popupTheme"/></declare-styleable>
     <declare-styleable name="ActionBarLayout"><attr name="android:layout_gravity"/></declare-styleable>
     <declare-styleable name="ActionMenuItemView"><attr name="android:minWidth"/></declare-styleable>
@@ -153,8 +153,6 @@
     <declare-styleable name="View"><attr format="dimension" name="paddingStart"/><attr format="dimension" name="paddingEnd"/><attr name="android:focusable"/><attr format="reference" name="theme"/><attr name="android:theme"/></declare-styleable>
     <declare-styleable name="ViewBackgroundHelper"><attr name="android:background"/><attr format="color" name="backgroundTint"/><attr name="backgroundTintMode"><enum name="src_over" value="3"/><enum name="src_in" value="5"/><enum name="src_atop" value="9"/><enum name="multiply" value="14"/><enum name="screen" value="15"/></attr></declare-styleable>
     <declare-styleable name="ViewStubCompat"><attr name="android:layout"/><attr name="android:inflatedId"/><attr name="android:id"/></declare-styleable>
-    <!-- From: file:/Users/ashpro/Documents/dev/android/Nanodegree/XYZReader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
-    <eat-comment/>
     <dimen name="abc_action_bar_content_inset_material">16dp</dimen>
     <dimen name="abc_action_bar_default_height_material">56dp</dimen>
     <dimen name="abc_action_bar_default_padding_end_material">0dp</dimen>
@@ -276,9 +274,7 @@
     <item format="float" name="disabled_alpha_material_light" type="dimen">0.26</item>
     <!-- From: file:/Users/ashpro/Documents/dev/android/Nanodegree/XYZReader/XYZReader/src/main/res/values/dimens.xml -->
     <eat-comment/>
-    <dimen name="fab_elevation">6dp</dimen>
     <dimen name="fab_margin">16dp</dimen>
-    <dimen name="fab_press_translation_z">6dp</dimen>
     <!-- From: file:/Users/ashpro/Documents/dev/android/Nanodegree/XYZReader/XYZReader/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.0.1/res/values/values.xml -->
     <eat-comment/>
     <item format="float" name="highlight_alpha_material_colored" type="dimen">0.26</item>
@@ -1570,9 +1566,9 @@
     <!-- From: file:/Users/ashpro/Documents/dev/android/Nanodegree/XYZReader/XYZReader/src/main/res/values/styles.xml -->
     <eat-comment/>
     <style name="Theme.Bacon" parent="@style/Theme.AppCompat.Light.NoActionBar">
-        <item name="colorPrimary">@color/theme_primary</item>
-        <item name="colorPrimaryDark">@color/theme_primary_dark</item>
-        <item name="colorAccent">@color/theme_accent</item>
+        <item name="colorPrimary">@color/orange_500</item>
+        <item name="colorPrimaryDark">@color/orange_700</item>
+        <item name="colorAccent">@color/A400</item>
     </style>
     <style name="Theme.Bacon.Detail">
         <item name="android:statusBarColor">@android:color/transparent</item>
